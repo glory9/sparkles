@@ -1,0 +1,39 @@
+<script src = "http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+<div class="welcome">WELCOmE!</div>
+<div class="allText">
+<h1>Add filters to your pictures for fun!</h1>
+
+  <h3>This page allows you to edit your photos by adding cool filters.
+  </h3>
+
+<p>
+<canvas id= "c1"></canvas>
+</p>
+
+ <p id = "labels"> 
+Upload an image
+</p>
+
+<p>
+<input type="file" multiple = "false" accept = "image/*" id="img" onchange = "loadImage()">
+</p>
+
+<p id ="labels">Filters</p><br>
+
+<input type="button" value = "Sunshine" class= "f" onclick = "sunlight()">
+
+<input type="button" value = "Rainbow" class= "f" onclick = "doRainbow()">
+
+<input type="button" value="Crimson" class="f" onclick = "doCrimson()">
+
+<input type="button" value="Colorful" class="f" onclick = "doColorful()">
+
+<input type="button" value="Grayscale" class="f" onclick = "grayScale()">
+
+<input type="button" value="SplitFilter" class="f" onclick = "doSplit()">
+
+<input type="button" value="Add Black Frame" class="f" onclick = "addFrame()">
+<p>
+<input type="button" value="Reset Picture" class="f" id="reset" onclick = "resetImg()"></p>
+</div>

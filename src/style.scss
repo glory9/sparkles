@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body {
+  background-color: #074c64;
+}
+
+.allText{
+  text-align: center;
+}
+
+h1 {
+  background-image: linear-gradient(-90deg, SlateBlue, MediumSeaGreen);
+  width: 500px;
+  padding: 10px;
+  color: rgb(200,200,255);
+  margin: 0 auto;
+}
+
+h3{
+  color: white;
+  margin: 10px;
+  text-shadow: 4px 4px 4px black;
+}
+
+.welcome {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3em;
+  font-family: "Lato";
+  text-transform: uppercase;
+
+  span {
+    background: #34495e;
+    padding: 0 20px;
+    line-height: 100px;
+    animation: bulge 3s infinite;
+  }
+}
+
+@keyframes bulge {
+  50% {
+    transform: translateY(-35px);
+    box-shadow: 0 20px 0 #eee;
+  }
+}
+
+.f {
+  background-color: #4CAF50; /* Green */
+  //border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  //display: inline-block;
+  font-size: 18px;
+}
+
+#reset{
+  background-color: red;
+}
+
+#labels{
+  background-color: rgb(200,200,255);
+  width: 200px;
+  color: blue;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-family: monospace;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+#c1{
+  width: 750px;
+  height: 500px;
+  border: solid;
+  border-color: turquoise;
+  border-radius: 10px;
+  background-color: white;
+}
